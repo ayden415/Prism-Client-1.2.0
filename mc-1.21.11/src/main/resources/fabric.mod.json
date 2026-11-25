@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "prism",
+  "version": "${version}",
+  "name": "Prism Client",
+  "description": "Client-side HUD, zoom and a clean in-game menu. Cosmetic and quality-of-life only.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["prism.mixins.json"],
+  "entrypoints": {
+    "client": ["dev.prism.client.PrismClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
